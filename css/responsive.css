@@ -1,4 +1,4 @@
-
+ /* Light theme */
 @media (max-width: 1199.98px){
     /* carousel */
     .carousel__content .carousel-caption h1 {
@@ -97,7 +97,7 @@
         color: #333;
         position: absolute;
         right: 5%;
-        top: 11px;
+        top: 13px;
     }
     .fixed-top {
         position: fixed;
@@ -227,6 +227,243 @@
         line-height: 48px;
     }
     #switchButton {
+        right: 12%;
+        top: 12px;
+    }
+}
+/*------------------------------------- End responsive 366px----------------------------------------- */
+
+/* responsive dark theme */
+@media (max-width: 1199.98px){
+    /* carousel */
+   .dark .carousel__content .carousel-caption h1 {
+    font-size: 57px;
+    line-height: 67px;
+}
+ /* intro */
+    .dark .intro .intro__item a {
+    font-size: 20px;
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width: 1080px){
+    /* header */
+    .dark .header__main .nav-item {
+    font-size: 15px;
+}
+}
+/*------------------------------------- End responsive 1199.98px----------------------------------------- */
+@media (max-width: 991.98px){
+    /* header */
+    .dark .header {
+        display: none;
+    }
+    .dark .header__main {
+        display: unset;
+    }
+    .dark .header__main .navbar {
+        padding: 0.5rem 0;
+    }
+    .dark .header__main .navbar-toggler {
+        padding: 0;
+    }
+    .dark .header__main .nav-item a.active,
+    .dark .header__main .nav-item a:hover i,
+    .dark .header__main .nav-item a:hover{
+        color: #0d369f;
+    }
+    .dark .header__main .navbar-nav {
+        margin-left: auto;
+        background-color: #161c2d;
+        text-align: center;
+        margin-top: 18px;
+        padding: 20px;
+        box-shadow: 0 6px 19px rgba(0, 0, 0, 0.05);
+    }
+    .dark .header__main .form-inline {
+        justify-content: center;
+        margin-top: 20px;
+        background-color: #fff;
+        padding: 20px;
+    }
+    .dark .header__main .search__btn {
+        right: 36%;
+        bottom: unset;
+        font-size: 16px;
+        color: #0d369f;
+        padding-right: 20px;    
+    }
+    .dark .header__main .dropdown-menu {
+        background:#161c2d;
+        text-align: center;
+        width: 30%;
+        transform: translateX(114%);
+        padding: 1rem 0.3rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: rgb(12 12 12 / 6%) 0px 1px 20px 0px;
+    }
+    .dark .header__main .dropdown-menu::before {
+        left: 49%;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-right: none;
+        border-bottom: none;
+    }
+    /* navbar */
+    .dark .navbar__icon {
+        padding: 0;
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        display: inline-block;
+        background: #0d369f;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+    /* carousel */
+    .dark .carousel-caption {
+        left: 44%;
+    }
+    .dark .carousel__content .carousel-caption h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    /* switch__icon */
+    .dark #switchButton {
+        color: #333;
+        position: absolute;
+        right: 5%;
+        top: 13px;
+    }
+    .dark .fixed-top {
+        position: fixed;
+        height: auto;
+    }
+    /* intro */
+    .dark .intro .intro__item a {
+        font-size: 25px;
+    }
+    /* counter */
+    .dark .number__content .counter {
+       border: none;
+    }
+    .dark .number__content .counter__number h1 {
+        font-size: 35px;
+    }
+    .dark .number__content .counter__text p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 769px) { 
+    .dark .header__main .dropdown-menu::before {
+        right: 41%;
+    }
+}
+/*------------------------------------- End responsive 991px----------------------------------------- */
+@media (max-width: 767.98px) {
+    /* header */
+    .dark .header__main .dropdown-menu::before {
+        right: 48%;
+        border-color: transparent transparent white transparent;
+    }
+    /* carousel */
+    .dark .carousel__content .carousel-caption h1{
+    font-size: 45px;
+    line-height: 55px;
+    }
+    .dark .carousel-caption {
+    left: 54%;
+    }
+}
+/*------------------------------------- End responsive 767.98px----------------------------------------- */
+@media (max-width: 540px) {
+    /* header */
+    .dark .header__main .dropdown-menu {
+        width: 40%;
+        transform: translateX(76%);
+    }
+    /* carousel */
+    .dark .carousel-item .btn__more { 
+        padding: 13px 30px;
+    }
+    .dark #switchButton {
+        right: 7%;
+        top: 12px;
+    }
+    .dark .header__main .search__btn {
+        right: 27%;
+    }
+}
+/*------------------------------------- End responsive 540px----------------------------------------- */
+@media (max-width: 480px) {
+     /* studious */
+     .dark .title__heading .title__main {
+        font-size: 34px;
+        line-height: 45px;
+    }
+    /* counter */
+    .dark .number__content .counter__text p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 430px) {
+    .dark .intro .intro__item a {
+        font-size: 23px;
+    }
+}
+/*------------------------------------- End responsive 430px----------------------------------------- */
+@media (max-width: 414px) { 
+    /* header */
+    .dark .header__main .dropdown-menu {
+        width: 76%;
+        transform: translateX(18%);
+    }
+    .dark .header__main .search__btn {
+        right: 19%;
+    }
+    /* carousel */
+    .dark .carousel__content .carousel-caption h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .dark #switchButton {
+        right: 9%;
+        top: 12px;
+    }
+    /* intro */
+    .dark .intro .intro__item a {
+        font-size: 19px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .dark .intro__item {
+        padding: 40px 30px;
+    }
+}
+/*------------------------------------- End responsive 414px----------------------------------------- */
+@media (max-width: 410px) { 
+     /* studious */
+     .dark .title__heading .title__main {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+/*------------------------------------- End responsive 410px----------------------------------------- */
+
+@media (max-width: 366px) { 
+    /* header */
+    .dark .header__main .search__btn {
+        right: 12%;
+    }
+    /* carousel */
+    .dark .carousel__content .carousel-caption h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .dark #switchButton {
         right: 12%;
         top: 12px;
     }
