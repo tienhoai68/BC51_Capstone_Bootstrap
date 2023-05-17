@@ -96,7 +96,7 @@
     #switchButton {
         color: #333;
         position: absolute;
-        right: 5%;
+        right: 6%;
         top: 13px;
     }
     .fixed-top {
@@ -153,7 +153,7 @@
         padding: 13px 30px;
     }
     #switchButton {
-        right: 7%;
+        right: 10%;
         top: 12px;
     }
     .header__main .search__btn {
@@ -337,7 +337,7 @@
     .dark #switchButton {
         color: #333;
         position: absolute;
-        right: 5%;
+        right: 6%;
         top: 13px;
     }
     .dark .fixed-top {
@@ -394,7 +394,7 @@
         padding: 13px 30px;
     }
     .dark #switchButton {
-        right: 7%;
+        right: 10%;
         top: 12px;
     }
     .dark .header__main .search__btn {
