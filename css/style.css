@@ -432,3 +432,33 @@ html, body {
     color: #060606;
     letter-spacing: 0.4px;
 }
+/* ----------------------------------backToTOp----------------- */
+/* backToTop */
+.backToTop {
+    position: fixed;
+    right: 15px;
+    bottom: 90px;
+    font-size: 16px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #0d369f;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 0;
+    display: block;
+    z-index: 10;
+}
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
+.backToTop:hover {
+    opacity: 0.8;
+  }

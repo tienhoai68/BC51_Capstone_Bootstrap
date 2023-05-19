@@ -179,3 +179,10 @@
 .dark .number__content .counter {
     border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
+/* backToTop */
+.dark .backToTop {
+    background-color: #4867b0;
+}
+.dark .backToTop:hover {
+    opacity: 0.8;
+}
