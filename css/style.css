@@ -481,6 +481,66 @@ html, body {
     padding: 0;
 }
 
+/* instructors */
+.instructors {
+    margin-top: 7rem;
+}
+.instructors__item {
+    box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+}
+.instructors__img {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.instructors__img img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.instructors__text {
+    margin-top: 1.5rem;
+}
+.instructors__text h5 {
+    font-weight: 600;
+    cursor: pointer;
+}
+.instructors__text p {
+    font-size: 13px;
+    color: #888;
+}
+.instructors__overlay {
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
+    bottom: -90px;
+    margin: 0;
+    background: rgb(8 8 8 / 29%);
+    text-align: center;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.instructors__item:hover .instructors__overlay {
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+}
+.instructors__overlay span {
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.instructors__overlay span i {
+    color: #0d369f;
+    font-size: 14px;
+    line-height: 28px;
+}
+
 /* ----------------------------------backToTOp----------------- */
 /* backToTop */
 .backToTop {
