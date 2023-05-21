@@ -432,6 +432,55 @@ html, body {
     color: #060606;
     letter-spacing: 0.4px;
 }
+
+/* feedback */
+.feedback {
+    margin: 5rem 0;
+}
+.feedback .feedback__item {
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
+    border-radius: 4px;
+}
+.feedback__item span i {
+    font-size: 22px;
+    color: #ff6e65;
+    line-height: 0.8;
+}
+.feedback__item p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+}
+.feedback__info {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    gap: 5px;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.feedback__info .feedback__img img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.feedback__info .feedback__text h4 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 16px;
+}
+.feedback__info .feedback__text p {
+    color: #888;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
 /* ----------------------------------backToTOp----------------- */
 /* backToTop */
 .backToTop {
