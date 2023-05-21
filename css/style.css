@@ -481,6 +481,228 @@ html, body {
     padding: 0;
 }
 
+/* instructors */
+.instructors {
+    margin-top: 7rem;
+}
+.instructors__item {
+    box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+}
+.instructors__img {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.instructors__img img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.instructors__text {
+    margin-top: 1.5rem;
+}
+.instructors__text h5 {
+    font-weight: 600;
+    cursor: pointer;
+}
+.instructors__text p {
+    font-size: 13px;
+    color: #888;
+}
+.instructors__overlay {
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
+    bottom: -90px;
+    margin: 0;
+    background: rgb(8 8 8 / 29%);
+    text-align: center;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.instructors__item:hover .instructors__overlay {
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+}
+.instructors__overlay span {
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.instructors__overlay span i {
+    color: #0d369f;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/* contact */
+.contact {
+    padding-bottom: 7rem;
+}
+.contact__img {
+    max-width: 100%;
+}
+.contact__right h3 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.contact__right p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+}
+.contact__btn {
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    background: #ff6e65;
+    border: none;
+    transition: all .25s ease-in-out;
+}
+.contact__btn:hover {
+    background-color: #0d369f;
+    color: #fff;
+}
+/* footer */
+.footer {
+    margin-top: 7rem;
+    position: relative;
+}
+.footer__main {
+    padding: 80px 0;
+    background: #060e1f;
+}
+.footer__top {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -110px;
+    box-shadow: 0px -1px 41px 0px rgb(21 22 23 / 8%);
+}
+.footer__title h1{
+    font-size: 34px;
+    line-height: 40px;
+    color: #060606;
+    font-weight: 600;
+}
+.footer__title p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #707070;
+}
+.footer__form input{
+    padding: 15px 20px;
+    height: 55px;
+    border:1px solid #eee;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 8px 0 0 8px;
+    color: #060606;
+    border-right: 0;
+}
+.footer__form button {
+    padding: 16px 30px;
+    border: none;
+    font-size: 16px;
+    background-color: #0d369f;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+    font-weight: 600;
+}
+.form__control:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(46, 202, 139, 0.25);
+}
+.footer__form button:hover {
+    background-color: #4867b0;
+    color: #fff;
+}
+.footer__bottom {
+    margin-top: 120px;
+}
+.footer__item h6 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(23, 54, 88, 0.4);
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.footer__item li {
+    list-style: none;
+
+}
+.footer__item li a {
+    text-decoration: none;   
+    font-size: 14px;
+    line-height: 24px;
+    color: #cecece;
+    margin: 0 0 10px 0;
+    display: block; 
+    transition: all 0.5s;
+}
+.footer__item li:hover a{
+    color: #fff;
+}
+.footer__item li i {
+    margin-right: 10px;
+    font-size: 12px;
+}
+.footer__item p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #cecece;
+}
+.footer__about {
+    border-left: 1px solid rgb(64 73 82 / 51%);
+}
+.footer__social span {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(255, 255, 255, 0.06);
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.footer__social span:hover {
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
+.copyright__footer {
+    background: #040a17;
+    padding: 20px 0;
+}
+.copyright {
+    font-size: 15px;
+    line-height: 20px;
+    color: #a0a0a0;
+    margin-top: 20px;
+}
+.copyright a {
+    color: #fff;
+}
+
 /* ----------------------------------backToTOp----------------- */
 /* backToTop */
 .backToTop {
