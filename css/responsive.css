@@ -289,7 +289,7 @@
 /*------------------------------------- End responsive 414px----------------------------------------- */
 @media (max-width: 410px) { 
     /* header */
-    .dark .header__main .search__btn {
+    .header__main .search__btn {
         right: 15%;
     }
      /* studious */
@@ -317,6 +317,10 @@
 /* ----------------------------------------End 375px----------------- */
 @media (max-width: 366px) { 
     /* header */
+    .header__main .dropdown-menu {
+        width: 88%;
+        transform: translateX(10%);
+    }
     .header__main .search__btn {
         right: 12%;
     }
@@ -326,8 +330,23 @@
         line-height: 48px;
     }
     #switchButton {
-        right: 10%;
+        right: 12%;
         top: 12px;
+    }
+    /* contact */
+    .contact__img {
+        display: block;
+    }
+    .contact__img img {
+        width: 100%;
+    }
+    /* footer */
+    .footer__top {
+        padding: 20px;
+        top: -195px;
+    }
+    .footer__title h1 {
+        font-size: 26px;
     }
 }
 /*------------------------------------- End responsive 366px----------------------------------------- */
@@ -605,7 +624,7 @@
 /*------------------------------------- End responsive 414px----------------------------------------- */
 @media (max-width: 410px) { 
     /* header */
-    .header__main .search__btn {
+    .dark .header__main .search__btn {
         right: 15%;
     }
      /* studious */
@@ -633,6 +652,10 @@
 /* ----------------------end 375px------------- */
 @media (max-width: 366px) { 
     /* header */
+    .dark .header__main .dropdown-menu {
+        width: 88%;
+        transform: translateX(10%);
+    }
     .dark .header__main .search__btn {
         right: 12%;
     }
@@ -642,8 +665,23 @@
         line-height: 48px;
     }
     .dark #switchButton {
-        right: 10%;
+        right: 12%;
         top: 12px;
+    }
+    /* contact */
+    .dark .contact__img {
+        display: block;
+    }
+    .dark .contact__img img {
+        width: 100%;
+    }
+    /* footer */
+    .dark .footer__top {
+        padding: 20px;
+        top: -195px;
+    }
+    .dark .footer__title h1 {
+        font-size: 26px;
     }
 }
 /*------------------------------------- End responsive 366px----------------------------------------- */
