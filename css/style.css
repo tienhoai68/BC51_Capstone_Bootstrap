@@ -364,6 +364,8 @@ html, body {
     line-height: 34px;
     font-weight: 600;
     margin-top: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 .studious__item h5:hover{
     color: #ff6e65;
