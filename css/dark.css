@@ -179,6 +179,56 @@
 .dark .number__content .counter {
     border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+/*Feedback*/
+.dark .feedback .feedback__item {
+    background: #161c2d;
+}
+.dark .feedback__info .feedback__text h4 {
+    color: #fff;
+}
+.dark .feedback__info .feedback__text p {
+    color: #b7b7b7;
+}
+.dark .feedback__item p {
+    color: #b7b7b7;
+}
+
+/* instructors */
+.dark .instructors__item {
+    padding: 10px;
+    background: transparent;
+}
+.dark .instructors__text h5 {
+    color: #fff;
+}
+.dark .instructors__text h5:hover {
+    color: #ff6e65;
+}
+
+/* contact */
+.dark .contact__right h3 {
+    color: #fff;
+}
+.dark .contact__right p {
+    color: #b7b7b7;
+}
+
+/* footer */
+.dark .footer__top {
+    background: #161c2d;
+}
+.dark .footer__title h1 {
+    color: #fff;
+}
+.dark .footer__title p {
+    color: #b7b7b7;
+}
+.dark .footer__form input {
+    background: transparent;
+    color: #fff;
+}
+
 /* backToTop */
 .dark .backToTop {
     background-color: #4867b0;

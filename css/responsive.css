@@ -10,14 +10,19 @@
     font-size: 20px;
     margin-top: 20px;
 }
+/*Feedback*/
+.dark .feedback__info {
+    grid-template-columns: .5fr 1fr;
 }
+}
+
+/*------------------------------------- End responsive 1199.98px----------------------------------------- */
 @media only screen and (max-width: 1080px){
     /* header */
     .header__main .nav-item {
     font-size: 15px;
 }
 }
-/*------------------------------------- End responsive 1199.98px----------------------------------------- */
 @media (max-width: 991.98px){
     /* header */
     .header {
