@@ -325,7 +325,7 @@
         transform: translateX(10%);
     }
     .header__main .search__btn {
-        right: 10%;
+        right: 12%;
     }
     /* carousel */
     .carousel__content .carousel-caption h1 {
@@ -663,7 +663,7 @@
         transform: translateX(10%);
     }
     .dark .header__main .search__btn {
-        right: 10%;
+        right: 12%;
     }
     /* carousel */
     .dark .carousel__content .carousel-caption h1 {
