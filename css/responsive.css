@@ -461,9 +461,28 @@
         font-size: 30px;
         line-height: 40px;
     }
+    /* feedback */
+    .dark .feedback__info {
+        grid-template-columns: 0.5fr 1fr;
+    }
+     /* contact */
+     .dark .contact__right h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
 }
-/*------------------------------------- End responsive 410px----------------------------------------- */
 
+/*------------------------------------- End responsive 410px----------------------------------------- */
+@media (max-width: 375px){
+    .dark .header__main .dropdown-menu {
+        width: 64%;
+        transform: translateX(31%);
+    }
+    .dark .header__main .navbar-brand {
+        font-size: 24px;
+    }
+}
+/* ----------------------end 375px------------- */
 @media (max-width: 366px) { 
     /* header */
     .dark .header__main .search__btn {
@@ -477,6 +496,21 @@
     .dark #switchButton {
         right: 12%;
         top: 12px;
+    }
+    /* contact */
+    .dark .contact__img {
+        display: block;
+    }
+    .dark .contact__img img {
+        width: 100%;
+    }
+     /* footer */
+     .dark .footer__top {
+        padding: 20px;
+        top: -195px;
+    }
+    .dark .footer__title h1 {
+        font-size: 26px;
     }
 }
 /*------------------------------------- End responsive 366px----------------------------------------- */
